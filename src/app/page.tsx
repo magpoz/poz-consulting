@@ -21,7 +21,7 @@ const offers = [
     number: "01",
     title: "Fondation — Audit IA",
     description:
-      "Je cartographie votre quotidien tel qu'il est vraiment, et je vous rends des priorités chiffrées.",
+      "Je cartographie votre quotidien tel qu'il est vraiment et je vous rends des priorités chiffrées.",
   },
   {
     number: "02",
@@ -50,7 +50,7 @@ const cards = [
   },
   {
     eyebrow: "02 · Le geste",
-    title: "Construire ce qui tient",
+    title: "Construire votre écosystème",
     body: "Documenté, lisible, personnalisé. Vous restez propriétaire de votre fonctionnement.",
   },
   {
@@ -71,14 +71,17 @@ export default function AccueilPage() {
             Architecte de solutions IA et No-Code
           </span>
           <h1 className="mt-6 font-serif text-5xl leading-[1.03] tracking-[-0.02em] text-balance sm:text-7xl">
-            Vous sentez que votre activité mérite des fondations plus{" "}
-            <em className="text-copper not-italic italic">solides</em> que ce
-            qu&apos;elle a aujourd&apos;hui&nbsp;?
+            Vous sentez que{" "}
+            <span className="text-copper">
+              votre entreprise mérite des fondations plus solides
+            </span>{" "}
+            que ce qu&apos;elle a aujourd&apos;hui&nbsp;?
           </h1>
           <p className="mt-8 max-w-[30em] text-lg leading-[1.85] text-body sm:text-xl">
-            Je regarde d&apos;abord ce qui tient déjà, puis je construis avec
-            vous l&apos;organisation où vous retrouverez enfin de
-            l&apos;air — claire, fiable, faite pour durer.
+            J&apos;automatise ce qui vous prend du temps, de l&apos;argent, de
+            l&apos;énergie et je bâtis avec vous l&apos;écosystème
+            d&apos;outils qui vous appartient&nbsp;: clair, fiable, fait pour
+            durer.
           </p>
           <div className="mt-11 flex flex-wrap items-center gap-7">
             <PillLink href="/contact">Faisons connaissance</PillLink>

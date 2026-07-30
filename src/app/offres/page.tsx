@@ -71,7 +71,7 @@ const offers = [
       "Votre site ou votre application en fonctionnement, hébergé",
       "Une feuille de route avec points d'étape validés ensemble",
       "Une charte graphique de marque, définie avec vous",
-      "La capacité de le faire évoluer en autonomie, et un mois d'accompagnement après la mise en ligne",
+      "La capacité de le faire évoluer en autonomie et un mois d'accompagnement après la mise en ligne",
     ],
   },
   {
@@ -84,8 +84,8 @@ const offers = [
       "Cabinets, associations et équipes qui utilisent l'IA au hasard et veulent une méthode.",
     cta: "Organiser une journée",
     paragraphs: [
-      "Une journée pour que vos équipes comprennent vraiment ce qu'est l'IA générative et les agents conversationnels — au-delà de l'usage superficiel. On aborde les bonnes pratiques, les techniques de rédaction de prompt, et surtout un usage éthique et responsable : ce qu'on peut lui confier, ce qu'on doit vérifier, où poser les limites.",
-      "Objectif : cadrer les usages, prévenir le shadow IA (l'usage de l'IA par vos équipes sans que vous en ayez connaissance), et donner à chacun des réflexes solides et responsables.",
+      "Une journée pour que vos équipes comprennent vraiment ce qu'est l'IA générative et les agents conversationnels — au-delà de l'usage superficiel. On aborde les bonnes pratiques, les techniques de rédaction de prompt et surtout un usage éthique et responsable : ce qu'on peut lui confier, ce qu'on doit vérifier, où poser les limites.",
+      "Objectif : cadrer les usages, prévenir le shadow IA (l'usage de l'IA par vos équipes sans que vous en ayez connaissance) et donner à chacun des réflexes solides et responsables.",
     ],
     deliverables: [
       "Une journée animée sur site ou à distance",
@@ -109,7 +109,7 @@ const offers = [
     deliverables: [
       "Après un brief établi et validé par les parties prenantes, une réponse sous 24 à 48h pour cadrer la prestation et un devis clair avant toute intervention",
       "Une intervention ciblée, sans repartir de zéro",
-      "Une interlocutrice privilégiée, qui connaît déjà votre projet",
+      "Une interlocutrice privilégiée qui connaît déjà votre projet",
     ],
   },
 ];
@@ -125,7 +125,7 @@ const faq = [
   },
   {
     q: "Et si mon équipe est réticente ?",
-    a: "C'est une réaction que je rencontre régulièrement, et je la comprends. L'intelligence artificielle fait évoluer les habitudes de travail à un rythme inédit. Il est naturel que certaines personnes s'interrogent, expriment des réserves ou craignent de perdre leurs repères. Mon rôle n'est pas d'imposer une solution, mais d'accompagner les personnes concernées afin qu'elles en comprennent l'intérêt, se l'approprient et y voient un véritable soutien dans leur quotidien.",
+    a: "C'est une réaction que je rencontre régulièrement et je la comprends. L'intelligence artificielle fait évoluer les habitudes de travail à un rythme inédit. Il est naturel que certaines personnes s'interrogent, expriment des réserves ou craignent de perdre leurs repères. Mon rôle n'est pas d'imposer une solution, mais d'accompagner les personnes concernées afin qu'elles en comprennent l'intérêt, se l'approprient et y voient un véritable soutien dans leur quotidien.",
   },
   {
     q: "Les prix sont-ils fermes ?",
