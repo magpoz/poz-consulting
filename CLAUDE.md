@@ -1,8 +1,13 @@
+# Instructions du projet POZ Consulting
+
 @AGENTS.md
 
 # Projet : POZ Consulting
 
 Site vitrine de POZ Consulting (poz-consulting.fr) — Next.js App Router (TypeScript, Tailwind).
+
+## Règle de fonctionnement — TRÈS IMPORTANT
+**Ne jamais prendre d'initiative.** Toujours attendre la validation explicite de l'utilisatrice avant d'effectuer une action (modification de fichier, lancement de serveur, commit, etc.). Proposer, expliquer, puis attendre le feu vert avant d'agir.
 
 - **Ce projet n'est PAS Doolipaw.** Ne jamais confondre ni lancer le dev server de doolipaw-app quand on travaille ici.
 - Emplacement : `C:\Users\mpozz\POZ\poz-consulting`
