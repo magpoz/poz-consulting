@@ -66,7 +66,7 @@ export default function AccueilPage() {
     <PageShell>
       <Nav active="/" />
 
-      <div className="grid gap-16 px-6 pt-4 pb-20 sm:px-16 sm:pt-8 sm:pb-24 lg:grid-cols-[1.1fr_0.9fr] lg:items-start">
+      <div className="grid gap-16 px-6 pt-4 pb-10 sm:px-16 sm:pt-8 sm:pb-12 lg:grid-cols-[1.1fr_0.9fr] lg:items-start">
         <div>
           <span className="text-[11px] font-medium tracking-[0.3em] text-copper uppercase">
             Architecte de solutions IA et No-Code
@@ -83,10 +83,9 @@ export default function AccueilPage() {
             J&apos;identifie ce qui vous prend du temps, de l&apos;argent, de
             l&apos;énergie et je bâtis avec vous l&apos;écosystème
             d&apos;outils qui vous appartient&nbsp;:
-            <br />
-            clair, fiable, pérenne.
+            <span className="block text-left">clair, fiable, pérenne.</span>
           </p>
-          <div className="mt-11 flex flex-wrap items-center gap-7">
+          <div className="mt-11 flex flex-col items-start gap-4 sm:flex-row sm:items-center sm:gap-7">
             <PillLink href="/contact">Parlons de votre activité</PillLink>
             <Link
               href="/offres"
@@ -121,7 +120,7 @@ export default function AccueilPage() {
         </span>
       </div>
 
-      <div className="px-6 py-22 sm:px-16">
+      <div className="px-6 pt-10 pb-22 sm:px-16">
         <div>
           <span className="text-[11px] font-medium tracking-[0.28em] text-copper uppercase">
             Plusieurs façons de travailler ensemble
