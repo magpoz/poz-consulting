@@ -39,7 +39,7 @@ const offers = [
     number: "04",
     title: "Transmission — Formation",
     description:
-      "Une journée avec votre équipe, sur vos propres cas — pas des exercices.",
+      "Une formation généraliste, pensée pour rassurer les plus réticents : ce que l'IA change vraiment, ce qu'elle ne remplace pas et comment l'utiliser sans exposer votre entreprise au shadow IA.",
   },
 ];
 
@@ -57,7 +57,7 @@ const cards = [
   {
     eyebrow: "03 · La transmission",
     title: "Vous rendre autonome",
-    body: "Mon travail est réussi le jour où vous saurez maîtriser les solutions que je vous ai transmises.",
+    body: "Mon travail est réussi le jour où vous saurez maîtriser les solutions sur-mesure conçues pour votre activité.",
   },
 ];
 
@@ -179,7 +179,8 @@ export default function AccueilPage() {
             fonctionnement actuel, avec ses forces et ses frictions. Que vous
             ayez besoin d&apos;y voir clair, d&apos;alléger votre charge
             mentale, de vous doter d&apos;une vitrine digitale à votre image
-            (site, application), ou de former votre équipe, je vous oriente
+            (Site Web, application), ou de former votre équipe, je vous
+            oriente
             sur la formule la plus adaptée pour vous, sans jamais remplacer
             votre savoir-faire, ni compromettre vos données.
           </p>
