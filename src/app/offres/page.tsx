@@ -3,14 +3,6 @@ import { Footer } from "@/components/footer";
 import { PageShell } from "@/components/page-shell";
 import { PillLink } from "@/components/pill-link";
 
-const summary = [
-  "01 Audit IA",
-  "02 Automatisation",
-  "03 Développement digital",
-  "04 Formation",
-  "05 Suivi à la carte",
-];
-
 const offers = [
   {
     number: "01",
@@ -61,7 +53,7 @@ const offers = [
     price: "sur devis",
     detail: "Selon le périmètre de l'outil.",
     forWho:
-      "Pour celles et ceux qui préfèrent me confier la création de leur site ou leur application sur mesure — faute de temps, de compétences techniques, ou d'appétence pour le sujet.",
+      "Pour celles et ceux qui préfèrent me confier la création de leur site ou leur application sur mesure — faute de temps, de compétences techniques ou d'appétence pour le sujet.",
     cta: "Décrire mon besoin",
     paragraphs: [
       "Votre site internet ou votre application prend forme à partir de votre besoin réel, avec des points d'étape validés ensemble sur une feuille de route claire. La démarche s'appuie sur votre code de marque (votre image de marque, votre personnalité, votre palette de couleurs) pour construire une charte graphique sur mesure, remise à l'issue de la prestation.",
@@ -103,7 +95,7 @@ const offers = [
     forWho: "Si vous avez déjà fait appel à mes services.",
     cta: "Parler d'un besoin ponctuel",
     paragraphs: [
-      "Pas d'abonnement, pas d'engagement récurrent : chaque intervention est cadrée et facturée pour ce qu'elle est, quand vous en avez besoin. Vous êtes libre de me contacter pour développer une nouvelle fonctionnalité, corriger un bug complexe, ou obtenir un conseil stratégique sur l'évolution de vos systèmes.",
+      "Pas d'abonnement, pas d'engagement récurrent : chaque intervention est cadrée et facturée pour ce qu'elle est, quand vous en avez besoin. Vous êtes libre de me contacter pour développer une nouvelle fonctionnalité, corriger un bug complexe ou obtenir un conseil stratégique sur l'évolution de vos systèmes.",
       "Selon votre besoin, cela prendra la forme d'une intervention ciblée.",
     ],
     deliverables: [
@@ -133,7 +125,7 @@ const faq = [
   },
   {
     q: "Pas sûr de la formule qui vous convient ?",
-    a: "C'est justement mon rôle de vous aider à y voir clair. Expliquez-moi simplement votre situation, vos difficultés ou vos objectifs. Je vous orienterai vers la formule la plus adaptée... même si cela signifie vous conseiller d'attendre, de commencer plus modestement, ou de ne rien mettre en place pour le moment.",
+    a: "C'est justement mon rôle de vous aider à y voir clair. Expliquez-moi simplement votre situation, vos difficultés ou vos objectifs. Je vous orienterai vers la formule la plus adaptée... même si cela signifie vous conseiller d'attendre, de commencer plus modestement ou de ne rien mettre en place pour le moment.",
   },
 ];
 
@@ -142,7 +134,7 @@ export default function OffresPage() {
     <PageShell>
       <Nav active="/offres" />
 
-      <div className="px-6 pt-0 pb-19 sm:px-16">
+      <div className="px-6 pt-0 pb-4 sm:px-16">
         <span className="text-[11px] font-medium tracking-[0.3em] text-copper uppercase">
           Les offres
         </span>
@@ -157,17 +149,24 @@ export default function OffresPage() {
         </p>
       </div>
 
-      <div className="mx-6 flex flex-wrap gap-8 rounded-full bg-sand px-9 py-5 text-[13px] font-medium tracking-[0.16em] text-muted uppercase sm:mx-16">
-        {summary.map((item) => (
-          <span key={item}>{item}</span>
+      <div className="mx-6 flex flex-wrap gap-4 sm:mx-16">
+        {offers.map((offer) => (
+          <a
+            key={offer.number}
+            href={`#offre-${offer.number}`}
+            className="whitespace-nowrap rounded-full bg-sand px-6 py-3 text-[13px] font-medium tracking-[0.16em] text-muted uppercase no-underline hover:bg-sand-line"
+          >
+            {offer.number} {offer.subtitle}
+          </a>
         ))}
       </div>
 
-      <div className="px-6 py-21 sm:px-16">
+      <div className="px-6 pt-0 pb-21 sm:px-16">
         {offers.map((offer, i) => (
           <div
             key={offer.number}
-            className={`grid gap-13 py-14 lg:grid-cols-[0.34fr_0.66fr] ${
+            id={`offre-${offer.number}`}
+            className={`grid scroll-mt-10 gap-6 py-8 lg:grid-cols-[0.34fr_0.66fr] lg:gap-13 ${
               i < offers.length - 1 ? "border-b border-sand" : ""
             }`}
           >

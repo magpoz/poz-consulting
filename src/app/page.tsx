@@ -66,7 +66,7 @@ export default function AccueilPage() {
     <PageShell>
       <Nav active="/" />
 
-      <div className="grid gap-16 px-6 pt-0 pb-10 sm:px-16 sm:pb-12 lg:grid-cols-[1.1fr_0.9fr] lg:items-start">
+      <div className="grid gap-16 px-6 pt-0 pb-10 sm:px-16 lg:grid-cols-[1.1fr_0.9fr] lg:items-start">
         <div>
           <span className="text-[11px] font-medium tracking-[0.3em] text-copper uppercase">
             Architecte de solutions IA et No-Code
@@ -179,7 +179,7 @@ export default function AccueilPage() {
             fonctionnement actuel, avec ses forces et ses frictions. Que vous
             ayez besoin d&apos;y voir clair, d&apos;alléger votre charge
             mentale, de vous doter d&apos;une vitrine digitale à votre image
-            (Site Web, application), ou de former votre équipe, je vous
+            (Site Web, application) ou de former votre équipe, je vous
             oriente
             sur la formule la plus adaptée pour vous, sans jamais remplacer
             votre savoir-faire, ni compromettre vos données.
