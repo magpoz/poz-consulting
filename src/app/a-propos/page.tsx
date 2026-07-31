@@ -172,7 +172,7 @@ export default function AProposPage() {
           </p>
         </div>
         <PillLink href="/contact" variant="dark">
-          Faisons connaissance
+          Parlons de votre activité
         </PillLink>
       </div>
 

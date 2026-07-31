@@ -25,22 +25,23 @@ export function Nav({ active }: { active: string }) {
             <Link
               key={link.href}
               href={link.href}
-              className={`flex items-center gap-2 no-underline ${
-                isActive ? "text-charcoal" : "text-muted-2 hover:text-charcoal"
+              className={`group relative flex items-center gap-2 py-1 no-underline transition-colors duration-[250ms] ${
+                isActive ? "text-charcoal" : "text-petrol hover:text-sage-deep"
               }`}
             >
               {isActive && (
                 <span className="h-[5px] w-[5px] rounded-full bg-copper-2" />
               )}
               {link.label}
+              <span className="pointer-events-none absolute -bottom-0.5 left-0 h-px w-full origin-left scale-x-0 bg-sage-deep transition-transform duration-[250ms] ease-out group-hover:scale-x-100" />
             </Link>
           );
         })}
         <Link
           href="/contact"
-          className="rounded-full bg-sage px-5 py-2.5 font-semibold text-forest no-underline hover:bg-sage-hover"
+          className="rounded-full border-2 border-sage bg-transparent px-5 py-2.5 font-semibold text-forest no-underline transition-colors duration-[250ms] hover:bg-sage"
         >
-          Faisons connaissance
+          Parlons de votre activité
         </Link>
       </div>
     </div>

@@ -65,12 +65,12 @@ export default function AccueilPage() {
     <PageShell>
       <Nav active="/" />
 
-      <div className="grid gap-16 px-6 pt-14 pb-20 sm:px-16 sm:pt-24 sm:pb-24 lg:grid-cols-[1.28fr_0.72fr] lg:items-end">
+      <div className="grid gap-16 px-6 pt-4 pb-20 sm:px-16 sm:pt-8 sm:pb-24 lg:grid-cols-[1.28fr_0.72fr] lg:items-end">
         <div>
           <span className="text-[11px] font-medium tracking-[0.3em] text-copper uppercase">
             Architecte de solutions IA et No-Code
           </span>
-          <h1 className="mt-6 font-serif text-5xl leading-[1.03] tracking-[-0.02em] text-balance sm:text-7xl">
+          <h1 className="mt-6 font-serif text-4xl leading-[1.03] tracking-[-0.02em] text-balance sm:text-6xl">
             Vous sentez que{" "}
             <span className="text-copper">
               votre entreprise mérite des fondations plus solides
@@ -78,13 +78,13 @@ export default function AccueilPage() {
             que ce qu&apos;elle a aujourd&apos;hui&nbsp;?
           </h1>
           <p className="mt-8 max-w-[30em] text-lg leading-[1.85] text-body sm:text-xl">
-            J&apos;automatise ce qui vous prend du temps, de l&apos;argent, de
+            J&apos;identifie ce qui vous prend du temps, de l&apos;argent, de
             l&apos;énergie et je bâtis avec vous l&apos;écosystème
-            d&apos;outils qui vous appartient&nbsp;: clair, fiable, fait pour
-            durer.
+            d&apos;outils qui vous appartient&nbsp;: clair, fiable,
+            pérenne.
           </p>
           <div className="mt-11 flex flex-wrap items-center gap-7">
-            <PillLink href="/contact">Faisons connaissance</PillLink>
+            <PillLink href="/contact">Parlons de votre activité</PillLink>
             <Link
               href="/offres"
               className="border-b border-copper-2 pb-1 font-medium text-charcoal no-underline hover:border-sage"
@@ -95,9 +95,9 @@ export default function AccueilPage() {
         </div>
         <div className="rounded-[150px_150px_40px_150px] bg-cream-warm p-11">
           <p className="font-serif text-2xl leading-[1.5] text-balance italic">
-            « Je ne vous aide pas seulement à bâtir&nbsp;: je reste à vos
-            côtés jusqu&apos;à ce que mes solutions deviennent vos
-            solutions. »
+            « Je ne me contente pas de développer vos solutions
+            IA&nbsp;: je reste à vos côtés jusqu&apos;à ce
+            qu&apos;elles deviennent les vôtres. »
           </p>
           <p className="mt-5 text-[10px] font-medium tracking-[0.28em] text-copper uppercase">
             Magaly Pozza
@@ -121,13 +121,11 @@ export default function AccueilPage() {
           <span className="text-[11px] font-medium tracking-[0.28em] text-copper uppercase">
             Plusieurs façons de travailler ensemble
           </span>
-          <h2 className="mt-5 font-serif text-4xl leading-[1.12] tracking-[-0.015em] text-balance">
-            On peut commencer petit. On peut bâtir grand aussi.
-          </h2>
-          <p className="mt-6 max-w-[24em] text-lg leading-[1.85] text-body">
+          <p className="mt-5 max-w-[30em] text-lg leading-[1.85] text-body">
             Chaque étape se tient seule. Prises ensemble, elles ne posent pas
-            seulement des fondations&nbsp;: elles bâtissent une activité
-            pensée pour durer.
+            seulement des fondations&nbsp;:
+            <br />
+            elles bâtissent une activité pensée pour durer.
           </p>
         </div>
         <div className="flex flex-col">
@@ -172,16 +170,17 @@ export default function AccueilPage() {
           <h2 className="font-serif text-4xl leading-[1.15] tracking-[-0.015em]">
             Commençons par en discuter
           </h2>
-          <p className="mt-3.5 max-w-[32em] text-lg leading-[1.85] text-body">
-            Trente minutes, sans engagement. Vous me racontez votre quotidien
-            tel qu&apos;il est vraiment. Que vous ayez besoin d&apos;y voir
-            clair, d&apos;alléger votre charge mentale, de faire construire un
-            outil qui vous ressemble ou de former votre équipe, je vous
-            oriente sur la formule la plus adaptée pour vous — sans jamais
-            remplacer votre savoir-faire, ni compromettre vos données.
+          <p className="mt-3.5 max-w-[32em] text-lg leading-[1.85] text-body text-justify">
+            Trente minutes, sans engagement. Vous me décrivez votre
+            fonctionnement actuel, avec ses forces et ses frictions. Que vous
+            ayez besoin d&apos;y voir clair, d&apos;alléger votre charge
+            mentale, de vous doter d&apos;une vitrine digitale à votre image
+            (site, application), ou de former votre équipe, je vous oriente
+            sur la formule la plus adaptée pour vous, sans jamais remplacer
+            votre savoir-faire, ni compromettre vos données.
           </p>
         </div>
-        <PillLink href="/contact">Faisons connaissance</PillLink>
+        <PillLink href="/contact">Parlons de votre activité</PillLink>
       </div>
 
       <Footer />
