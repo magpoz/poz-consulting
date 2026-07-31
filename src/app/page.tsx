@@ -25,14 +25,15 @@ const offers = [
   },
   {
     number: "02",
-    title: "Mise en œuvre — Automatisation",
+    title: "Mise en œuvre — Implémentation",
     description:
-      "Devis, relances, reporting : j'automatise ce qui vous prend vos soirées.",
+      "Prospection, Vente, Marketing, Service Client, RH, Finance, Productivité : j'automatise les outils IA adaptés à votre secteur d'activité.",
   },
   {
     number: "03",
     title: "Construction — Développement digital",
-    description: "Votre outil sur mesure, conçu pour tourner sans moi.",
+    description:
+      "La création de votre site ou votre application sur mesure, selon votre code de marque.",
   },
   {
     number: "04",
@@ -65,12 +66,12 @@ export default function AccueilPage() {
     <PageShell>
       <Nav active="/" />
 
-      <div className="grid gap-16 px-6 pt-4 pb-20 sm:px-16 sm:pt-8 sm:pb-24 lg:grid-cols-[1.28fr_0.72fr] lg:items-start">
+      <div className="grid gap-16 px-6 pt-4 pb-20 sm:px-16 sm:pt-8 sm:pb-24 lg:grid-cols-[1.1fr_0.9fr] lg:items-start">
         <div>
           <span className="text-[11px] font-medium tracking-[0.3em] text-copper uppercase">
             Architecte de solutions IA et No-Code
           </span>
-          <h1 className="mt-6 font-serif text-2xl leading-[1.03] tracking-[-0.02em] text-balance sm:text-4xl">
+          <h1 className="mt-6 font-serif text-2xl leading-[1.03] tracking-[-0.02em] text-balance text-justify hyphens-auto sm:text-4xl">
             Vous sentez que{" "}
             <span className="text-copper">
               la productivité de votre entreprise mérite des fondations plus
@@ -78,11 +79,12 @@ export default function AccueilPage() {
             </span>{" "}
             que ce qu&apos;elle a aujourd&apos;hui&nbsp;?
           </h1>
-          <p className="mt-8 max-w-[30em] text-lg leading-[1.85] text-body sm:text-xl">
+          <p className="mt-8 max-w-[30em] text-lg leading-[1.5] text-body text-justify sm:text-xl">
             J&apos;identifie ce qui vous prend du temps, de l&apos;argent, de
             l&apos;énergie et je bâtis avec vous l&apos;écosystème
-            d&apos;outils qui vous appartient&nbsp;: clair, fiable,
-            pérenne.
+            d&apos;outils qui vous appartient&nbsp;:
+            <br />
+            clair, fiable, pérenne.
           </p>
           <div className="mt-11 flex flex-wrap items-center gap-7">
             <PillLink href="/contact">Parlons de votre activité</PillLink>
@@ -94,11 +96,13 @@ export default function AccueilPage() {
             </Link>
           </div>
         </div>
-        <div className="rounded-[150px_150px_40px_150px] bg-cream-warm p-11">
-          <p className="text-justify font-serif text-2xl leading-[1.5] text-balance italic">
+        <div className="mt-12 rounded-[40px] bg-cream-warm px-7 py-7">
+          <p className="text-justify font-serif text-xl leading-[1.5] text-balance italic">
             « Je ne me contente pas de développer vos solutions IA pour
-            optimiser votre productivité ou votre visibilité&nbsp;: je reste
-            à vos côtés jusqu&apos;à ce qu&apos;elles deviennent les vôtres. »
+            optimiser votre productivité ou votre visibilité&nbsp;:
+            <br />
+            je reste à vos côtés jusqu&apos;à ce qu&apos;elles deviennent les
+            vôtres. »
           </p>
           <p className="mt-5 text-right text-[10px] font-medium tracking-[0.28em] text-copper uppercase">
             Magaly Pozza
@@ -117,20 +121,19 @@ export default function AccueilPage() {
         </span>
       </div>
 
-      <div className="grid gap-16 px-6 py-22 sm:px-16 lg:grid-cols-[0.4fr_0.6fr] lg:items-start">
+      <div className="px-6 py-22 sm:px-16">
         <div>
           <span className="text-[11px] font-medium tracking-[0.28em] text-copper uppercase">
             Plusieurs façons de travailler ensemble
           </span>
-          <p className="mt-5 max-w-[30em] text-lg leading-[1.85] text-body">
+          <p className="mt-5 max-w-[45em] text-lg leading-[1.85] text-body text-justify">
             Chaque étape se tient seule. Prises ensemble, elles ne posent pas
-            seulement les fondations de votre productivité&nbsp;:
-            <br />
-            elles bâtissent une activité pensée pour durer et vous libérer du
-            temps sur l&apos;opérationnel.
+            seulement les fondations de votre productivité&nbsp;: elles
+            bâtissent une activité pensée pour durer et vous libérer du temps
+            sur l&apos;opérationnel.
           </p>
         </div>
-        <div className="flex flex-col">
+        <div className="mt-12 flex flex-col">
           {offers.map((offer, i) => (
             <Link
               key={offer.number}
