@@ -142,7 +142,7 @@ export default function OffresPage() {
     <PageShell>
       <Nav active="/offres" />
 
-      <div className="px-6 pt-22 pb-19 sm:px-16">
+      <div className="px-6 pt-0 pb-19 sm:px-16">
         <span className="text-[11px] font-medium tracking-[0.3em] text-copper uppercase">
           Les offres
         </span>
