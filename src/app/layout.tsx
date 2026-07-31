@@ -18,7 +18,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "POZ Consulting — Architecte de solutions IA et No-Code",
   description:
-    "Magaly Pozza accompagne dirigeants et indépendants dans l'audit, l'automatisation, le développement digital et la formation à l'IA.",
+    "POZ Consulting : il est temps de poser de solides fondations sur la productivité de votre entreprise",
 };
 
 export default function RootLayout({

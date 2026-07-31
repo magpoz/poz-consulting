@@ -65,15 +65,16 @@ export default function AccueilPage() {
     <PageShell>
       <Nav active="/" />
 
-      <div className="grid gap-16 px-6 pt-4 pb-20 sm:px-16 sm:pt-8 sm:pb-24 lg:grid-cols-[1.28fr_0.72fr] lg:items-end">
+      <div className="grid gap-16 px-6 pt-4 pb-20 sm:px-16 sm:pt-8 sm:pb-24 lg:grid-cols-[1.28fr_0.72fr] lg:items-start">
         <div>
           <span className="text-[11px] font-medium tracking-[0.3em] text-copper uppercase">
             Architecte de solutions IA et No-Code
           </span>
-          <h1 className="mt-6 font-serif text-4xl leading-[1.03] tracking-[-0.02em] text-balance sm:text-6xl">
+          <h1 className="mt-6 font-serif text-2xl leading-[1.03] tracking-[-0.02em] text-balance sm:text-4xl">
             Vous sentez que{" "}
             <span className="text-copper">
-              votre entreprise mérite des fondations plus solides
+              la productivité de votre entreprise mérite des fondations plus
+              solides
             </span>{" "}
             que ce qu&apos;elle a aujourd&apos;hui&nbsp;?
           </h1>
@@ -94,12 +95,12 @@ export default function AccueilPage() {
           </div>
         </div>
         <div className="rounded-[150px_150px_40px_150px] bg-cream-warm p-11">
-          <p className="font-serif text-2xl leading-[1.5] text-balance italic">
-            « Je ne me contente pas de développer vos solutions
-            IA&nbsp;: je reste à vos côtés jusqu&apos;à ce
-            qu&apos;elles deviennent les vôtres. »
+          <p className="text-justify font-serif text-2xl leading-[1.5] text-balance italic">
+            « Je ne me contente pas de développer vos solutions IA pour
+            optimiser votre productivité ou votre visibilité&nbsp;: je reste
+            à vos côtés jusqu&apos;à ce qu&apos;elles deviennent les vôtres. »
           </p>
-          <p className="mt-5 text-[10px] font-medium tracking-[0.28em] text-copper uppercase">
+          <p className="mt-5 text-right text-[10px] font-medium tracking-[0.28em] text-copper uppercase">
             Magaly Pozza
           </p>
         </div>
@@ -123,9 +124,10 @@ export default function AccueilPage() {
           </span>
           <p className="mt-5 max-w-[30em] text-lg leading-[1.85] text-body">
             Chaque étape se tient seule. Prises ensemble, elles ne posent pas
-            seulement des fondations&nbsp;:
+            seulement les fondations de votre productivité&nbsp;:
             <br />
-            elles bâtissent une activité pensée pour durer.
+            elles bâtissent une activité pensée pour durer et vous libérer du
+            temps sur l&apos;opérationnel.
           </p>
         </div>
         <div className="flex flex-col">
