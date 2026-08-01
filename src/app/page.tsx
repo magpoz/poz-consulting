@@ -125,7 +125,7 @@ export default function AccueilPage() {
           <span className="text-[11px] font-medium tracking-[0.28em] text-copper uppercase">
             Plusieurs façons de travailler ensemble
           </span>
-          <p className="mt-5 max-w-[45em] text-lg leading-[1.85] text-body text-justify">
+          <p className="mt-5 max-w-[45em] text-base leading-[1.6] text-body text-justify sm:text-lg">
             Vous pouvez sélectionner ou moduler chaque offre selon vos
             besoins. Reliées entre elles, elles bâtissent un mode opératoire
             pensé pour durer et vous libèrent du temps sur
@@ -174,7 +174,7 @@ export default function AccueilPage() {
           <h2 className="font-serif text-4xl leading-[1.15] tracking-[-0.015em]">
             Commençons par en discuter
           </h2>
-          <p className="mt-3.5 max-w-[32em] text-lg leading-[1.85] text-body text-justify">
+          <p className="mt-3.5 max-w-[32em] text-base leading-[1.6] text-body text-justify sm:text-lg">
             Trente minutes, sans engagement. Vous me décrivez votre
             fonctionnement actuel, avec ses forces et ses frictions. Que vous
             ayez besoin d&apos;y voir clair, d&apos;alléger votre charge

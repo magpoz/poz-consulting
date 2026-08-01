@@ -19,7 +19,7 @@ export default function ContactPage() {
         <h1 className="mt-6 max-w-[18em] font-serif text-4xl leading-[1.06] tracking-[-0.02em] text-balance sm:text-6xl">
           Racontez-moi ce qui vous prend du temps.
         </h1>
-        <p className="mt-6 max-w-[34em] text-lg leading-[1.85] text-body sm:text-xl">
+        <p className="mt-6 max-w-[34em] text-base leading-[1.6] text-body sm:text-lg">
           Vous n&apos;avez rien à préparer. Un message ou trente minutes au
           téléphone suffisent pour que je vous oriente sur ce que l&apos;IA
           peut y changer.

@@ -5,11 +5,11 @@ import { PillLink } from "@/components/pill-link";
 
 const heroParagraphs = [
   "Je suis née à une époque où Internet n'existait pas encore dans nos foyers. J'ai grandi avec son arrivée, j'ai travaillé avec son évolution et, aujourd'hui, j'accompagne les entreprises dans la révolution suivante : celle de l'intelligence artificielle.",
-  "J'ai déjà vu une technologie transformer durablement notre manière de communiquer, de travailler et de collaborer. Et j'ai observé ce qui faisait la différence : ce n'étaient pas forcément les plus experts, mais celles et ceux qui prenaient le temps de comprendre, d'expérimenter et de s'adapter au changement.",
+  "J'ai déjà vu une technologie transformer durablement notre manière de communiquer, de travailler et de collaborer. Et j'ai observé ce qui faisait la différence : ce n'étaient pas forcément les plus experts mais celles et ceux qui prenaient le temps de comprendre, d'expérimenter et de s'adapter au changement.",
   "Avant de me consacrer aux solutions numériques et à l'intelligence artificielle, j'ai passé plus de dix ans à accompagner des entreprises dans leur communication digitale chez Cision. Mon métier consistait déjà à analyser leurs besoins, comprendre leurs objectifs, identifier les bons interlocuteurs et définir la stratégie la plus pertinente pour que chaque message atteigne sa cible, au bon moment.",
   "Avec le recul, je réalise que mon métier n'a jamais vraiment changé. J'ai toujours cherché à comprendre avant d'agir, à relier les informations entre elles, à simplifier ce qui semblait complexe et à concevoir des solutions utiles, concrètes et adaptées à chaque situation.",
   "Diagnostiquée TSA et TDAH à l'âge de 40 ans, j'ai enfin compris pourquoi j'avais toujours eu besoin de structure, de logique et de clarté pour donner le meilleur de moi-même. Cette façon de penser, longtemps perçue comme différente, est devenue une véritable force. Elle me permet d'analyser une situation dans son ensemble, d'identifier rapidement les points de friction et de construire des solutions cohérentes, durables et faciles à s'approprier.",
-  "C'est sans doute pour cette raison que l'intelligence artificielle est rapidement devenue une alliée. Non pas parce qu'elle pense à ma place, mais parce qu'elle m'aide à structurer les idées, à automatiser les tâches répétitives et à consacrer davantage de temps à ce qui crée réellement de la valeur : la réflexion, l'écoute, la stratégie et la créativité.",
+  "C'est sans doute pour cette raison que l'intelligence artificielle est rapidement devenue une alliée. Non pas parce qu'elle pense à ma place mais parce qu'elle m'aide à structurer les idées, à automatiser les tâches répétitives et à consacrer davantage de temps à ce qui crée réellement de la valeur : la réflexion, l'écoute, la stratégie et la créativité.",
   "J'aime voir l'intelligence artificielle comme un maître d'œuvre. Elle exécute, coordonne et accélère. Moi, je reste l'architecte. J'observe, je conçois, je fais des choix et je veille à ce que chaque solution réponde aux besoins réels de celles et ceux qui l'utiliseront. Une technologie, aussi performante soit-elle, n'a de valeur que lorsqu'elle est pensée pour les humains.",
   "Aujourd'hui, je conçois des solutions numériques comme j'ai toujours accompagné mes clients : en écoutant avant de proposer, en simplifiant avant d'automatiser et en construisant des outils qui s'adaptent aux femmes et aux hommes qui les utiliseront, jamais l'inverse.",
   "De l'écoute, de l'anticipation, du calme et de l'authenticité : voilà ce que vous trouverez en travaillant avec moi.",
@@ -53,7 +53,7 @@ export default function AProposPage() {
           J&apos;ai vu naître Internet. J&apos;accompagne aujourd&apos;hui{" "}
           <em className="text-copper not-italic italic">l&apos;arrivée de l&apos;IA</em>.
         </h1>
-        <div className="mt-8 max-w-[42em] space-y-5 text-lg leading-[1.85] text-body">
+        <div className="mt-8 max-w-[42em] space-y-5 text-base leading-[1.6] text-body sm:text-lg">
           {heroParagraphs.map((p, i) => (
             <p key={i}>{p}</p>
           ))}
@@ -94,7 +94,7 @@ export default function AProposPage() {
           <span className="text-[11px] font-medium tracking-[0.24em] text-sage-deep uppercase">
             Ce que l&apos;hôtellerie m&apos;a appris
           </span>
-          <div className="mt-4 space-y-4 text-lg leading-[1.85] text-body">
+          <div className="mt-4 space-y-4 text-base leading-[1.6] text-body sm:text-lg">
             {hotellerieParagraphs.map((p, i) => (
               <p key={i}>{p}</p>
             ))}
@@ -128,7 +128,7 @@ export default function AProposPage() {
             Doolipaw, mon application de gestion de budget pour les animaux
             de compagnie
           </h2>
-          <p className="mt-4.5 text-lg leading-[1.85] text-body">
+          <p className="mt-4.5 text-base leading-[1.6] text-body sm:text-lg">
             Je l&apos;ai imaginée, construite, mise en ligne moi-même et j&apos;en
             assure la maintenance. Mon expérience sur la conception de mon
             propre produit me permet de vous orienter, de vous conseiller
@@ -166,7 +166,7 @@ export default function AProposPage() {
           <h2 className="font-serif text-4xl leading-[1.15] tracking-[-0.015em]">
             Le plus simple, c&apos;est de se parler.
           </h2>
-          <p className="mt-3.5 max-w-[32em] text-lg leading-[1.85] text-muted">
+          <p className="mt-3.5 max-w-[32em] text-base leading-[1.6] text-muted sm:text-lg">
             Trente minutes, sans engagement, pour explorer ce que l&apos;on
             peut construire ensemble.
           </p>

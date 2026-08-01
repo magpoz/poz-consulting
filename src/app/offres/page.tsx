@@ -11,7 +11,7 @@ const offers = [
     price: "sur devis",
     detail: "Restitution en deux semaines.",
     forWho:
-      "Dirigeants et indépendants qui sentent qu'il y a du temps à récupérer, sans savoir où.",
+      "Dirigeants et indépendants débordés par l'opérationnel, qui soupçonnent des pertes de temps, d'efficacité et d'argent sans pouvoir les chiffrer.",
     cta: "Demander cet audit",
     paragraphs: [
       "J'étudie votre fonctionnement, les outils que vous utilisez et tout ce qui ralentit votre activité au quotidien. Mon objectif est simple : identifier où vous pouvez gagner en efficacité, retrouver du temps et réaliser des économies.",
@@ -20,29 +20,29 @@ const offers = [
     ],
     deliverables: [
       "La cartographie de vos modes de fonctionnement",
-      "Les points de friction classés selon leur impact",
-      "Des recommandations priorisées et chiffrées, avec une feuille de route claire",
+      "Les points de friction classés selon leur impact et la détection des tâches chronophages",
+      "Des recommandations priorisées et chiffrées, avec un calcul du ROI potentiel et une feuille de route claire pour la mise en œuvre",
       "Une heure de restitution commentée",
     ],
   },
   {
     number: "02",
     title: "Mise en œuvre",
-    subtitle: "Automatisation",
+    subtitle: "Implémentation",
     price: "sur devis",
     detail: "Par périmètre automatisé.",
     forWho:
-      "Structures dont l'équipe passe encore ses journées à recopier des informations.",
+      "Particuliers et toute structure qui ont besoin de gagner du temps, de l'argent et de l'énergie grâce à l'implémentation d'outils IA.",
     cta: "Parler de mon cas",
     paragraphs: [
       "Une fois les priorités définies, je construis les automatisations qui prennent en charge les tâches répétitives de votre quotidien.",
-      "Devis, relances, reporting, saisie d'informations, transferts entre vos logiciels… chaque scénario est conçu pour s'intégrer naturellement à votre façon de travailler, sans bouleverser vos habitudes.",
-      "Mon objectif n'est pas de remplacer l'humain, mais de lui rendre du temps pour se concentrer sur ce qui crée réellement de la valeur. Chaque automatisation est documentée, compréhensible et entièrement modulable : vous restez propriétaire de votre fonctionnement.",
+      "Prospection, CRM, devis, relances, reporting, gestion logistique, transferts entre vos logiciels… chaque solution est conçue pour s'intégrer naturellement à votre façon de travailler, avec une expérience fluide. Cela peut prendre la forme d'un assistant IA interne, entraîné sur vos propres documents pour répondre avec vos informations plutôt que des réponses génériques, de l'implémentation de vos processus métier ou encore de chatbots pour améliorer l'expérience de vos clients.",
+      "Mon objectif n'est pas de remplacer l'humain mais plutôt de lui rendre du temps pour se concentrer sur ce qui crée réellement de la valeur. Chaque solution est documentée, compréhensible et entièrement modulable : vous restez propriétaire de votre fonctionnement.",
     ],
     deliverables: [
       "Des automatisations conçues sur mesure, testées sur vos cas d'usage",
       "Une documentation claire, rédigée en français",
-      "Une session de passation avec votre référent",
+      "Une session de formation pour utiliser les outils IA",
       "30 jours d'ajustements pour affiner les scénarii selon vos retours",
     ],
   },
@@ -53,17 +53,17 @@ const offers = [
     price: "sur devis",
     detail: "Selon le périmètre de l'outil.",
     forWho:
-      "Pour celles et ceux qui préfèrent me confier la création de leur site ou leur application sur mesure — faute de temps, de compétences techniques ou d'appétence pour le sujet.",
+      "Pour celles et ceux qui préfèrent me confier la création de leur site ou leur application sur mesure, faute de temps, de compétences techniques ou d'appétence pour le sujet.",
     cta: "Décrire mon besoin",
     paragraphs: [
       "Votre site internet ou votre application prend forme à partir de votre besoin réel, avec des points d'étape validés ensemble sur une feuille de route claire. La démarche s'appuie sur votre code de marque (votre image de marque, votre personnalité, votre palette de couleurs) pour construire une charte graphique sur mesure, remise à l'issue de la prestation.",
-      "Afin de parfaire cette expérience, si vous le souhaitez, je viens capter quelques images de vous, chez vous, telles que vous êtes vraiment, pour que le site vous ressemble, jusqu'au visage qui incarne déjà votre marque.",
+      "Afin de parfaire cette expérience, si vous le souhaitez, je viens capter quelques images de vous, chez vous, telles que vous êtes vraiment, pour que le site vous ressemble, jusqu'au visage qui incarne déjà votre marque. Je peux aussi créer votre avatar : une version stylisée de vous, façonnée à partir de vos photos, que vous utilisez comme bon vous semble : site internet, réseaux sociaux, supports de communication.",
     ],
     deliverables: [
       "Votre site ou votre application en fonctionnement, hébergé",
       "Une feuille de route avec points d'étape validés ensemble",
       "Une charte graphique de marque, définie avec vous",
-      "La capacité de le faire évoluer en autonomie et un mois d'accompagnement après la mise en ligne",
+      "La capacité de le faire évoluer en autonomie et 30 jours d'accompagnement après la mise en ligne",
     ],
   },
   {
@@ -71,18 +71,18 @@ const offers = [
     title: "Transmission",
     subtitle: "Formation",
     price: "sur devis",
-    detail: "Par jour, jusqu'à 8 participants.",
+    detail: "Par jour, jusqu'à 10 participants, en distanciel.",
     forWho:
-      "Cabinets, associations et équipes qui utilisent l'IA au hasard et veulent une méthode.",
+      "Particuliers ou toute structure qui souhaite comprendre l'univers de l'IA générative.",
     cta: "Organiser une journée",
     paragraphs: [
       "Une journée pour que vos équipes comprennent vraiment ce qu'est l'IA générative et les agents conversationnels — au-delà de l'usage superficiel. On aborde les bonnes pratiques, les techniques de rédaction de prompt et surtout un usage éthique et responsable : ce qu'on peut lui confier, ce qu'on doit vérifier, où poser les limites.",
-      "Objectif : cadrer les usages, prévenir le shadow IA (l'usage de l'IA par vos équipes sans que vous en ayez connaissance) et donner à chacun des réflexes solides et responsables.",
+      "Objectif : cadrer les usages, prévenir le shadow IA (l'usage de l'IA par les salariés sans approbation de l'Entreprise) et donner à chacun des réflexes solides et responsables.",
     ],
     deliverables: [
-      "Une journée animée sur site ou à distance",
+      "Une journée animée en distanciel",
       "Une méthode de prompt complète, transmise à vos équipes plutôt que des prompts clés en main",
-      "Un cadre d'usage éthique de l'IA, partagé et discuté avec votre équipe",
+      "Une documentation sur le cadre d'usage éthique de l'IA",
       "Un mémo de synthèse et un point de suivi à 30 jours",
     ],
   },
@@ -104,28 +104,44 @@ const offers = [
       "Une interlocutrice privilégiée qui connaît déjà votre projet",
     ],
   },
+  {
+    number: "06",
+    title: "Transformation",
+    subtitle: "Accompagnement complet",
+    price: "sur devis",
+    detail: "Après l'audit, sur la durée du projet.",
+    forWho:
+      "Dirigeants qui, une fois l'audit posé, veulent transformer l'ensemble de leur organisation plutôt qu'un seul pan à la fois.",
+    cta: "Envisager l'ensemble",
+    paragraphs: [
+      "Une fois la Fondation posée, nous choisissons ensemble l'ordre et le rythme des formules qui feront le plus de différence pour construire une organisation fluide et cohérente : implémentation de solutions et agents IA, développement digital, formation.",
+      "Chaque formule reste indépendante et possède sa propre force mais combinez-les : leur impact se démultiplie. Ce que l'audit révèle nourrit l'implémentation des solutions ; ce que l'implémentation libère finance la formation. Et ce que la formation transmet pérennise votre productivité, protège vos données et vous rend autonome dans l'usage de l'IA.",
+    ],
+    deliverables: [
+      "Un fil conducteur unique entre les cinq formules, pensé sur mesure",
+      "Un rythme adapté à votre réalité, pas un calendrier imposé",
+      "Un point d'étape régulier pour ajuster la trajectoire",
+      "Un accompagnement qui reste à vos côtés jusqu'à ce que vous soyez autonome",
+    ],
+  },
 ];
 
 const faq = [
   {
     q: "Faut-il commencer par l'audit ?",
-    a: "Non, mais c'est souvent ce que je recommande. Un audit permet d'éviter de construire une solution avant d'avoir identifié le véritable problème. Il révèle les points de friction, les habitudes qui fonctionnent déjà et les optimisations qui auront le plus d'impact. En revanche, si votre besoin est clairement identifié et que nous partageons le même diagnostic, nous pouvons passer directement à l'action.",
+    a: "Non mais c'est souvent ce que je recommande. Un audit permet d'éviter de construire une solution avant d'avoir identifié le véritable problème. Il révèle les points de friction, les habitudes qui fonctionnent déjà et les optimisations qui auront le plus d'impact. En revanche, si votre besoin est clairement identifié et que nous partageons le même diagnostic, nous pouvons passer directement à l'action.",
   },
   {
     q: "Mes données sont-elles protégées ?",
-    a: "Oui. La confidentialité fait partie intégrante de ma démarche. Avant toute mission, nous définissons précisément quelles informations peuvent être utilisées, lesquelles doivent rester dans votre environnement et quels outils sont adaptés à votre niveau d'exigence. L'objectif est simple : vous permettre de bénéficier de l'intelligence artificielle sans perdre le contrôle de vos données.",
+    a: "Oui. La confidentialité fait partie intégrante de ma démarche. Avant toute mission, nous définissons précisément quelles informations peuvent être utilisées, lesquelles doivent rester dans votre environnement et quels outils sont adaptés à votre niveau d'exigence. L'objectif est simple : vous permettre de bénéficier de l'intelligence artificielle sans perdre le contrôle de vos données et en respectant la RGPD.",
   },
   {
     q: "Et si mon équipe est réticente ?",
-    a: "C'est une réaction que je rencontre régulièrement et je la comprends. L'intelligence artificielle fait évoluer les habitudes de travail à un rythme inédit. Il est naturel que certaines personnes s'interrogent, expriment des réserves ou craignent de perdre leurs repères. Mon rôle n'est pas d'imposer une solution, mais d'accompagner les personnes concernées afin qu'elles en comprennent l'intérêt, se l'approprient et y voient un véritable soutien dans leur quotidien.",
+    a: "C'est une réaction que je rencontre régulièrement et je la comprends. L'intelligence artificielle fait évoluer les habitudes de travail à un rythme inédit. Il est naturel que certaines personnes s'interrogent, expriment des réserves ou craignent de perdre leurs repères. Mon rôle n'est pas d'imposer une solution mais d'accompagner les personnes concernées afin qu'elles en comprennent l'intérêt, se l'approprient et y voient un véritable soutien dans leur quotidien.",
   },
   {
     q: "Les prix sont-ils fermes ?",
-    a: "Oui, une fois le périmètre défini. Les tarifs affichés donnent un ordre de grandeur, mais chaque entreprise possède ses propres contraintes et ses propres objectifs. Avant toute intervention, nous définissons précisément le contenu de la mission.",
-  },
-  {
-    q: "Pas sûr de la formule qui vous convient ?",
-    a: "C'est justement mon rôle de vous aider à y voir clair. Expliquez-moi simplement votre situation, vos difficultés ou vos objectifs. Je vous orienterai vers la formule la plus adaptée... même si cela signifie vous conseiller d'attendre, de commencer plus modestement ou de ne rien mettre en place pour le moment.",
+    a: "Oui, une fois le périmètre défini. Chaque formule bénéficie d'un accompagnement sur mesure car aucune entreprise n'a les mêmes contraintes ni les mêmes objectifs. Le prix reflète ce qui est réellement construit pour vous. C'est pourquoi je ne propose pas de tarif générique. Avant toute intervention, nous cadrons ensemble précisément le contenu de la mission et le périmètre d'action dans le devis.",
   },
 ];
 
@@ -138,30 +154,36 @@ export default function OffresPage() {
         <span className="text-[11px] font-medium tracking-[0.3em] text-copper uppercase">
           Les offres
         </span>
-        <h1 className="mt-6 max-w-[19em] font-serif text-4xl leading-[1.06] tracking-[-0.02em] text-balance sm:text-6xl">
-          Cinq formules, annoncées dès le départ.
+        <h1 className="mt-6 max-w-[19em] font-serif text-2xl leading-[1.06] tracking-[-0.02em] text-balance sm:text-4xl">
+          Cinq formules indépendantes. Chacune a sa force.
+          <br />
+          <span className="text-copper">
+            Combinez-les&nbsp;: leur impact se démultiplie.
+          </span>
         </h1>
-        <p className="mt-6 max-w-[36em] text-lg leading-[1.85] text-body sm:text-xl">
-          Chaque formule est indépendante et complémentaire à la fois. Si
-          vous ne savez pas encore par où commencer, je vous conseille la
-          Fondation : elle cartographie vos outils et votre fonctionnement
-          pour éclairer la suite.
+        <p className="mt-6 text-base leading-[1.6] text-body text-justify sm:text-lg">
+          Chaque formule est indépendante et complémentaire à la fois. Dans le
+          cas où vous souhaitez de la clarté et que vous ne savez pas par quel
+          chantier commencer, je vous recommande la formule Fondation&nbsp;:
+          un Audit IA cartographie votre fonctionnement et pose des bases
+          solides pour choisir, en connaissance de cause, les formules à
+          enchaîner.
         </p>
       </div>
 
-      <div className="mx-6 flex flex-wrap gap-4 sm:mx-16">
+      <div className="mx-6 grid grid-cols-1 gap-3 sm:mx-16 sm:grid-cols-3">
         {offers.map((offer) => (
           <a
             key={offer.number}
             href={`#offre-${offer.number}`}
-            className="whitespace-nowrap rounded-full bg-sand px-6 py-3 text-[13px] font-medium tracking-[0.16em] text-muted uppercase no-underline hover:bg-sand-line"
+            className="truncate rounded-full bg-sand px-3 py-2.5 text-center text-[10px] font-medium tracking-[0.1em] text-muted uppercase no-underline hover:bg-sand-line sm:px-4 sm:text-[11px] sm:tracking-[0.12em]"
           >
             {offer.number} {offer.subtitle}
           </a>
         ))}
       </div>
 
-      <div className="px-6 pt-0 pb-21 sm:px-16">
+      <div className="px-6 pt-0 pb-6 sm:px-16">
         {offers.map((offer, i) => (
           <div
             key={offer.number}
@@ -174,13 +196,13 @@ export default function OffresPage() {
               <span className="text-sm font-medium tracking-[0.14em] text-copper">
                 {offer.number}
               </span>
-              <h2 className="mt-2.5 font-serif text-4xl leading-[1.15]">
+              <h2 className="mt-1.5 font-serif text-4xl leading-[1.15]">
                 {offer.title}
               </h2>
-              <p className="mt-3.5 text-[11px] font-medium tracking-[0.24em] text-sage-deep uppercase">
+              <p className="mt-2.5 inline-block bg-copper/20 px-2 py-0.5 text-sm font-medium tracking-[0.24em] text-charcoal uppercase">
                 {offer.subtitle}
               </p>
-              <p className="mt-6 font-serif text-2xl">{offer.price}</p>
+              <p className="mt-4 font-serif text-2xl">{offer.price}</p>
               <p className="mt-2 text-[15px] leading-[1.7] text-body">
                 {offer.detail}
               </p>
@@ -201,7 +223,7 @@ export default function OffresPage() {
               {offer.paragraphs.map((p, idx) => (
                 <p
                   key={idx}
-                  className={`text-lg leading-[1.85] ${idx > 0 ? "mt-4" : ""}`}
+                  className={`text-base leading-[1.6] sm:text-lg ${idx > 0 ? "mt-4" : ""}`}
                 >
                   {p}
                 </p>
@@ -236,19 +258,22 @@ export default function OffresPage() {
         </div>
       </div>
 
-      <div className="mx-6 flex flex-wrap items-center justify-between gap-11 rounded-[56px] bg-sand px-15 py-18 sm:mx-16">
-        <div>
-          <h2 className="font-serif text-4xl leading-[1.15] tracking-[-0.015em]">
-            Pas sûr de la formule qui vous convient ?
-          </h2>
-          <p className="mt-3.5 max-w-[32em] text-lg leading-[1.85] text-muted">
-            Envie d&apos;en discuter&nbsp;? Dites-moi où vous en êtes, je vous
-            oriente — même si la réponse est « attendez encore un peu ».
-          </p>
+      <div className="mx-6 rounded-[40px] bg-sand px-7 pt-7 pb-4 text-center sm:mx-16 sm:px-10 sm:pt-10 sm:pb-6 sm:text-left">
+        <h2 className="font-serif text-4xl leading-[1.15] tracking-[-0.015em]">
+          Quelle formule choisir ?
+        </h2>
+        <p className="mt-3.5 text-base leading-[1.6] text-muted sm:text-lg">
+          C&apos;est justement mon rôle de vous aider à y voir clair.
+          Expliquez-moi simplement votre situation, vos difficultés ou vos
+          objectifs. Je vous orienterai vers la formule la plus adaptée,
+          même si cela signifie vous conseiller d&apos;attendre, de commencer
+          plus modestement ou de ne rien mettre en place pour le moment.
+        </p>
+        <div className="mt-4 text-center">
+          <PillLink href="/contact" variant="dark">
+            Parlons de votre activité
+          </PillLink>
         </div>
-        <PillLink href="/contact" variant="dark">
-          Parlons de votre activité
-        </PillLink>
       </div>
 
       <div className="h-21" />
