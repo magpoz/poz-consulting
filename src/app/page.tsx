@@ -21,13 +21,13 @@ const offers = [
     number: "01",
     title: "Fondation — Audit IA",
     description:
-      "Je cartographie le quotidien de votre entreprise ou de votre activité professionnelle et je vous rends des priorités chiffrées sur les postes qui pèsent le plus : sous-traitance, outils redondants, erreurs à corriger, recrutement évité, temps administratif non facturable.",
+      "Je cartographie le quotidien de votre entreprise ou de votre activité professionnelle et je vous rends des priorités chiffrées sur les postes qui pèsent le plus : sous-traitance, outils redondants, erreurs à corriger, recrutement évité, temps administratif non facturable, zones de non-conformité IA à sécuriser.",
   },
   {
     number: "02",
     title: "Mise en œuvre — Implémentation",
     description:
-      "Prospection, Vente, Marketing, Service Client, RH, Finance, Productivité : j'automatise les outils IA adaptés à votre secteur d'activité.",
+      "Prospection, Vente, Marketing, Service Client, RH, Finance, Productivité : je configure les outils et agents IA adaptés à votre secteur d'activité.",
   },
   {
     number: "03",

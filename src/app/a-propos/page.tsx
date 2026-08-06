@@ -49,31 +49,35 @@ export default function AProposPage() {
         <span className="text-[11px] font-medium tracking-[0.3em] text-copper uppercase">
           À propos
         </span>
-        <h1 className="mt-6 max-w-[20em] font-serif text-4xl leading-[1.08] tracking-[-0.02em] text-balance sm:text-6xl">
-          J&apos;ai vu naître Internet. J&apos;accompagne aujourd&apos;hui{" "}
-          <em className="text-copper not-italic italic">l&apos;arrivée de l&apos;IA</em>.
-        </h1>
-        <div className="mt-8 max-w-[42em] space-y-5 text-base leading-[1.6] text-body sm:text-lg">
-          {heroParagraphs.map((p, i) => (
-            <p key={i}>{p}</p>
-          ))}
-        </div>
+        <div className="mt-6 grid gap-10 lg:grid-cols-[1.6fr_1fr] lg:items-start">
+          <div>
+            <h1 className="max-w-[20em] font-serif text-2xl leading-[1.06] tracking-[-0.02em] text-balance sm:text-4xl">
+              J&apos;ai vu naître Internet. J&apos;accompagne aujourd&apos;hui{" "}
+              <em className="text-copper not-italic italic">l&apos;arrivée de l&apos;IA</em>.
+            </h1>
+            <div className="mt-8 max-w-[42em] space-y-5 text-base leading-[1.6] text-body sm:text-lg">
+              {heroParagraphs.map((p, i) => (
+                <p key={i}>{p}</p>
+              ))}
+            </div>
+          </div>
 
-        <div className="mt-13 max-w-[26em] rounded-[44px] bg-cream-warm p-10">
-          <p className="text-[10px] font-medium tracking-[0.28em] text-copper uppercase">
-            En bref
-          </p>
-          <div className="mt-3.5 flex flex-col">
-            {enBref.map((item, i) => (
-              <span
-                key={item}
-                className={`border-t border-sand-line py-3 text-base leading-[1.6] ${
-                  i === enBref.length - 1 ? "border-b" : ""
-                }`}
-              >
-                {item}
-              </span>
-            ))}
+          <div className="max-w-[26em] rounded-[44px] bg-cream-warm p-10 lg:justify-self-end">
+            <p className="text-[10px] font-medium tracking-[0.28em] text-copper uppercase">
+              En bref
+            </p>
+            <div className="mt-3.5 flex flex-col">
+              {enBref.map((item, i) => (
+                <span
+                  key={item}
+                  className={`border-t border-sand-line py-3 text-base leading-[1.6] ${
+                    i === enBref.length - 1 ? "border-b" : ""
+                  }`}
+                >
+                  {item}
+                </span>
+              ))}
+            </div>
           </div>
         </div>
       </div>
