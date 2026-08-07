@@ -8,6 +8,7 @@ const tools = [
   "Claude",
   "ChatGPT",
   "Gemini",
+  "n8n",
   "Make",
   "Notion",
   "Airtable",
@@ -105,8 +106,8 @@ export default function AccueilPage() {
             « Je ne me contente pas de développer vos solutions IA pour
             optimiser votre productivité ou votre visibilité&nbsp;:
             <br />
-            je reste à vos côtés jusqu&apos;à ce qu&apos;elles deviennent les
-            vôtres.&nbsp;»
+            je les conçois avec éthique et réalisme, je reste à vos côtés
+            jusqu&apos;à ce qu&apos;elles deviennent les vôtres.&nbsp;»
           </p>
           <p className="mt-1 text-right text-[10px] font-medium tracking-[0.28em] text-copper uppercase">
             Magaly Pozza
