@@ -130,7 +130,7 @@ export default function AccueilPage() {
           <span className="text-[11px] font-medium tracking-[0.28em] text-copper uppercase">
             Plusieurs façons de travailler ensemble
           </span>
-          <p className="mt-5 max-w-[45em] text-base leading-[1.6] text-body text-justify sm:text-lg">
+          <p className="mt-5 max-w-none text-base leading-[1.6] text-body text-justify sm:text-lg">
             Vous pouvez sélectionner ou moduler chaque offre selon vos
             besoins. Reliées entre elles, elles bâtissent un mode opératoire
             pensé pour durer et vous libèrent du temps sur
