@@ -72,7 +72,15 @@ export default function AccueilPage() {
           <span className="text-[11px] font-medium tracking-[0.3em] text-copper uppercase">
             Architecte de solutions IA et No-Code
           </span>
-          <h1 className="mt-6 font-serif text-2xl leading-[1.03] tracking-[-0.02em] text-balance sm:text-4xl">
+          <p className="mt-6 font-serif text-xl italic leading-[1.4] text-muted sm:text-2xl">
+            Avant d&apos;utiliser l&apos;Intelligence Artificielle, il y a la
+            pause.
+          </p>
+          <p className="mt-4 font-serif text-xl italic leading-[1.4] text-muted sm:text-2xl">
+            Parce que les meilleures décisions commencent par les bonnes
+            questions.
+          </p>
+          <h1 className="mt-8 font-serif text-2xl leading-[1.03] tracking-[-0.02em] text-balance sm:text-4xl">
             IA –{" "}
             <span className="text-copper">Intelligence Authentique</span>
           </h1>
@@ -80,13 +88,7 @@ export default function AccueilPage() {
             Une façon d&apos;utiliser{" "}
             <span className="text-copper">
               l&apos;Intelligence Artificielle, guidée par l&apos;éthique, la
-              conscience et la responsabilité humaine,
-            </span>{" "}
-            en identifiant ce qui vous prend du temps, de l&apos;argent, de
-            l&apos;énergie pour bâtir l&apos;écosystème d&apos;outils qui
-            vous appartient&nbsp;:
-            <span className="block text-left">
-              clair, fiable, pérenne et responsable.
+              conscience et la responsabilité humaine.
             </span>
           </p>
           <div className="mt-11 flex flex-col items-center gap-4 sm:flex-row sm:items-center sm:gap-7">
@@ -101,11 +103,11 @@ export default function AccueilPage() {
         </div>
         <div className="rounded-[40px] bg-cream-warm px-7 py-7 lg:mt-12">
           <p className="font-serif text-xl leading-[1.5] italic lg:text-justify">
-            « Je ne me contente pas de développer vos solutions IA pour
-            optimiser votre productivité ou votre visibilité&nbsp;:
+            « J&apos;identifie ce qui vous coûte du temps, de l&apos;énergie
+            ou de l&apos;argent afin de bâtir un écosystème d&apos;outils et
+            d&apos;agents IA pensé pour vous qui vous appartient&nbsp;:
             <br />
-            je les conçois avec éthique et réalisme, je reste à vos côtés
-            jusqu&apos;à ce qu&apos;elles deviennent les vôtres.&nbsp;»
+            clair, fiable, pérenne et responsable.&nbsp;»
           </p>
           <p className="mt-1 text-right text-[10px] font-medium tracking-[0.28em] text-copper uppercase">
             Magaly Pozza
