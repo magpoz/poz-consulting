@@ -80,13 +80,11 @@ export default function AccueilPage() {
             Une façon d&apos;utiliser{" "}
             <span className="text-copper">
               l&apos;Intelligence Artificielle, guidée par l&apos;éthique, la
-              conscience et la responsabilité humaine.
-            </span>
-          </p>
-          <p className="mt-5 max-w-[30em] text-lg leading-[1.5] text-body text-justify sm:text-xl">
-            J&apos;identifie ce qui vous prend du temps, de l&apos;argent, de
-            l&apos;énergie et je bâtis avec vous l&apos;écosystème
-            d&apos;outils qui vous appartient&nbsp;:
+              conscience et la responsabilité humaine,
+            </span>{" "}
+            en identifiant ce qui vous prend du temps, de l&apos;argent, de
+            l&apos;énergie pour bâtir l&apos;écosystème d&apos;outils qui
+            vous appartient&nbsp;:
             <span className="block text-left">
               clair, fiable, pérenne et responsable.
             </span>
