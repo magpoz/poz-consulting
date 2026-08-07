@@ -16,7 +16,7 @@ const heroParagraphs = [
 ];
 
 const enBref = [
-  "Magaly Pozza, fondatrice de POZ Consulting",
+  "Magaly Pozza, fondatrice d'IALAPOZ",
   "Basée en Île-de-France, déplacements possibles partout en France (frais de déplacement facturés)",
   "Audit, automatisation, formation, développement d'outils",
 ];
@@ -49,13 +49,13 @@ export default function AProposPage() {
         <span className="text-[11px] font-medium tracking-[0.3em] text-copper uppercase">
           À propos
         </span>
-        <div className="mt-6 grid gap-10 lg:grid-cols-[1.6fr_1fr] lg:items-start">
+        <div className="mt-6 grid gap-10 lg:grid-cols-[2fr_1fr] lg:items-start">
           <div>
             <h1 className="max-w-[20em] font-serif text-2xl leading-[1.06] tracking-[-0.02em] text-balance sm:text-4xl">
               J&apos;ai vu naître Internet. J&apos;accompagne aujourd&apos;hui{" "}
               <em className="text-copper not-italic italic">l&apos;arrivée de l&apos;IA</em>.
             </h1>
-            <div className="mt-8 max-w-[42em] space-y-5 text-base leading-[1.6] text-body sm:text-lg">
+            <div className="mt-8 max-w-none space-y-5 text-base leading-[1.6] text-body sm:text-lg">
               {heroParagraphs.map((p, i) => (
                 <p key={i}>{p}</p>
               ))}

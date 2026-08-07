@@ -3,7 +3,7 @@ import { Footer } from "@/components/footer";
 import { PageShell } from "@/components/page-shell";
 
 export const metadata = {
-  title: "Calculer vos Gains IA — POZ Consulting",
+  title: "Calculer vos Gains IA — IALAPOZ",
 };
 
 export default function GainsIaPage() {

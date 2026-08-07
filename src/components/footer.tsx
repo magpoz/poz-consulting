@@ -3,10 +3,10 @@ import Link from "next/link";
 export function Footer() {
   return (
     <div className="flex flex-wrap justify-between gap-5 bg-sand px-6 py-8 text-[13px] text-muted sm:px-16">
-      <span>POZ Consulting · Architecte de solutions IA et No-Code</span>
+      <span>IALAPOZ · Architecte de solutions IA et No-Code</span>
       <span className="flex gap-6">
-        <a href="mailto:contact@poz-consulting.fr" className="text-petrol-2 no-underline">
-          contact@poz-consulting.fr
+        <a href="mailto:contact@ialapoz.fr" className="text-petrol-2 no-underline">
+          contact@ialapoz.fr
         </a>
         <Link href="/offres" className="text-petrol-2 no-underline">
           Offres

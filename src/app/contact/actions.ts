@@ -53,7 +53,7 @@ export async function submitLead(
     return {
       status: "error",
       message:
-        "Une erreur technique a empêché l'envoi. Vous pouvez réessayer ou m'écrire directement à contact@poz-consulting.fr.",
+        "Une erreur technique a empêché l'envoi. Vous pouvez réessayer ou m'écrire directement à contact@ialapoz.fr.",
     };
   }
 
@@ -90,7 +90,7 @@ async function sendNotification({
   const resend = new Resend(apiKey);
   try {
     await resend.emails.send({
-      from: "POZ Consulting <leads@poz-consulting.fr>",
+      from: "IALAPOZ <leads@ialapoz.fr>",
       to,
       replyTo: email,
       subject: `Nouvelle demande — ${fullName}${organization ? ` (${organization})` : ""}`,

@@ -4,7 +4,7 @@ import { PageShell } from "@/components/page-shell";
 import { ContactForm } from "./contact-form";
 
 export const metadata = {
-  title: "Contact — POZ Consulting",
+  title: "Contact — IALAPOZ",
 };
 
 export default function ContactPage() {
@@ -49,7 +49,7 @@ export default function ContactPage() {
             <h2 className="mb-3.5 font-serif text-2xl">Mes coordonnées</h2>
             <div className="flex flex-col">
               <span className="border-t border-sand-border-2 py-3 text-base leading-[1.6]">
-                contact@poz-consulting.fr
+                contact@ialapoz.fr
               </span>
               <span className="border-t border-sand-border-2 py-3 text-base leading-[1.6]">
                 +33 (0)0 00 00 00 00

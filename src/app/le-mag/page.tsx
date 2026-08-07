@@ -3,7 +3,7 @@ import { Footer } from "@/components/footer";
 import { PageShell } from "@/components/page-shell";
 
 export const metadata = {
-  title: "Le Mag — POZ Consulting",
+  title: "Le Mag — IALAPOZ",
 };
 
 export default function LeMagPage() {

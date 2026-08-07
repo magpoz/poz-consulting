@@ -1,6 +1,6 @@
-# Voix de marque — POZ Consulting
+# Voix de marque — IALAPOZ
 
-Condensé à l'usage de quiconque (humain ou agent) rédige un texte au nom de Magaly Pozza / POZ Consulting. Source : le brief de rédaction complet du projet Claude Design "Design POZ Consulting".
+Condensé à l'usage de quiconque (humain ou agent) rédige un texte au nom de Magaly Pozza / IALAPOZ. Source : le brief de rédaction complet du projet Claude Design "Design IALAPOZ".
 
 ## Positionnement
 Architecte de solutions IA et No-Code. Magaly observe d'abord le fonctionnement réel du client, puis construit, puis transmet — jamais l'inverse. Elle ne remplace jamais le savoir-faire du client ni ne compromet ses données.
@@ -28,4 +28,4 @@ Architecte de solutions IA et No-Code. Magaly observe d'abord le fonctionnement 
 2. Reformuler en une phrase ce que la personne a exprimé (preuve d'écoute).
 3. Orienter vers la formule la plus pertinente parmi les 5 — sans forcer si le besoin n'est pas clair (proposer l'audit/Fondation en dernier recours).
 4. Proposer un prochain pas concret : trente minutes d'échange, ou une question de cadrage.
-5. Signer "Magaly" — jamais "L'équipe POZ Consulting" (structure solo).
+5. Signer "Magaly" — jamais "L'équipe IALAPOZ" (structure solo).

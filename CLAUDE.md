@@ -1,16 +1,16 @@
-# Instructions du projet POZ Consulting
+# Instructions du projet IALAPOZ
 
 @AGENTS.md
 
-# Projet : POZ Consulting
+# Projet : IALAPOZ
 
-Site vitrine de POZ Consulting (poz-consulting.fr) — Next.js App Router (TypeScript, Tailwind).
+Site vitrine de IALAPOZ (ialapoz.fr) — Next.js App Router (TypeScript, Tailwind).
 
 ## Règle de fonctionnement — TRÈS IMPORTANT
 **Ne jamais prendre d'initiative.** Toujours attendre la validation explicite de l'utilisatrice avant d'effectuer une action (modification de fichier, lancement de serveur, commit, etc.). Proposer, expliquer, puis attendre le feu vert avant d'agir.
 
 - **Ce projet n'est PAS Doolipaw.** Ne jamais confondre ni lancer le dev server de doolipaw-app quand on travaille ici.
-- Emplacement : `C:\Users\mpozz\POZ\poz-consulting`
+- Emplacement : `C:\Users\mpozz\POZ\ialapoz`
 - Lancer le dev server : `npx next dev -p 3005` (port fixe **3005**, pas 3000 — 3000 est souvent déjà pris par doolipaw)
 - Aperçu local : http://localhost:3005
 - Si le serveur renvoie une 500 avec une erreur Turbopack du type « Every task must have a task type » ou « Could not find the module ... in the React Client Manifest » : le cache est corrompu, supprimer le dossier `.next` puis relancer.

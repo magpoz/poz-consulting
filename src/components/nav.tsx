@@ -24,7 +24,7 @@ export function Nav({ active }: { active: string }) {
           onClick={() => setOpen(false)}
         >
           <span className="font-serif text-2xl tracking-[0.02em] text-charcoal">
-            POZ<em className="text-copper not-italic italic">{" "}Consulting</em>
+            IALA<em className="text-copper not-italic italic">POZ</em>
           </span>
           <span className="text-[9px] font-medium tracking-[0.26em] text-muted-2">
             ARCHITECTE DE SOLUTIONS IA ET NO-CODE
