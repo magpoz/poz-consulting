@@ -72,18 +72,23 @@ export default function AccueilPage() {
             Architecte de solutions IA et No-Code
           </span>
           <h1 className="mt-6 font-serif text-2xl leading-[1.03] tracking-[-0.02em] text-balance sm:text-4xl">
-            Vous sentez que{" "}
-            <span className="text-copper">
-              la productivité de votre entreprise mérite des fondations plus
-              solides
-            </span>{" "}
-            que ce qu&apos;elle a aujourd&apos;hui&nbsp;?
+            IA –{" "}
+            <span className="text-copper">Intelligence Authentique</span>
           </h1>
           <p className="mt-8 max-w-[30em] text-lg leading-[1.5] text-body text-justify sm:text-xl">
+            Une façon d&apos;utiliser{" "}
+            <span className="text-copper">
+              l&apos;Intelligence Artificielle, guidée par l&apos;éthique, la
+              conscience et la responsabilité humaine.
+            </span>
+          </p>
+          <p className="mt-5 max-w-[30em] text-lg leading-[1.5] text-body text-justify sm:text-xl">
             J&apos;identifie ce qui vous prend du temps, de l&apos;argent, de
             l&apos;énergie et je bâtis avec vous l&apos;écosystème
             d&apos;outils qui vous appartient&nbsp;:
-            <span className="block text-left">clair, fiable, pérenne.</span>
+            <span className="block text-left">
+              clair, fiable, pérenne et responsable.
+            </span>
           </p>
           <div className="mt-11 flex flex-col items-center gap-4 sm:flex-row sm:items-center sm:gap-7">
             <PillLink href="/contact">Parlons de votre activité</PillLink>
